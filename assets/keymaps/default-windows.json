@@ -1594,6 +1594,18 @@
     },
   },
   {
+    "context": "CanvasView",
+    "bindings": {
+      "ctrl-=": "canvas_view::ZoomIn",
+      "ctrl-+": "canvas_view::ZoomIn",
+      "ctrl--": "canvas_view::ZoomOut",
+      "ctrl-0": "canvas_view::FitToContent",
+      "ctrl-z": "editor::Undo",
+      "ctrl-shift-z": "editor::Redo",
+      "ctrl-y": "editor::Redo",
+    },
+  },
+  {
     "context": "RunModal",
     "bindings": {
       "alt-1": "new_process_modal::ActivateTaskTab",

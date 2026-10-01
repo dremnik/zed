@@ -2717,6 +2717,24 @@ dependencies = [
 ]
 
 [[package]]
+name = "canvas_view"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "collections",
+ "editor",
+ "gpui",
+ "language",
+ "log",
+ "project",
+ "serde",
+ "serde_json",
+ "ui",
+ "util",
+ "workspace",
+]
+
+[[package]]
 name = "cap-fs-ext"
 version = "4.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -22939,6 +22957,7 @@ dependencies = [
  "breadcrumbs",
  "call",
  "call_hierarchy",
+ "canvas_view",
  "channel",
  "chrono",
  "clap",

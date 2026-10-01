@@ -1,0 +1,452 @@
+{
+  "nodes": [
+    {
+      "id": "d84375b",
+      "type": "text",
+      "x": 560,
+      "y": -80,
+      "width": 90,
+      "height": 90,
+      "text": "d84375b",
+      "shape": "circle"
+    },
+    {
+      "id": "00f1fe9",
+      "type": "text",
+      "x": 280,
+      "y": 80,
+      "width": 90,
+      "height": 90,
+      "text": "00f1fe9",
+      "shape": "circle"
+    },
+    {
+      "id": "5530a51",
+      "type": "text",
+      "x": 280,
+      "y": 300,
+      "width": 90,
+      "height": 90,
+      "text": "5530a51",
+      "shape": "circle"
+    },
+    {
+      "id": "baaf008",
+      "type": "text",
+      "x": 790,
+      "y": 80,
+      "width": 90,
+      "height": 90,
+      "text": "baaf008",
+      "shape": "circle"
+    },
+    {
+      "id": "4f3b684",
+      "type": "text",
+      "x": 1130,
+      "y": 190,
+      "width": 90,
+      "height": 90,
+      "text": "4f3b684",
+      "shape": "circle"
+    },
+    {
+      "id": "1220999",
+      "type": "text",
+      "x": 1340,
+      "y": 370,
+      "width": 90,
+      "height": 90,
+      "text": "1220999",
+      "shape": "circle"
+    },
+    {
+      "id": "dabfc48",
+      "type": "text",
+      "x": 725,
+      "y": 578,
+      "width": 90,
+      "height": 90,
+      "text": "dabfc48",
+      "shape": "circle"
+    },
+    {
+      "id": "820d01d",
+      "type": "text",
+      "x": 488,
+      "y": 858,
+      "width": 90,
+      "height": 90,
+      "text": "820d01d",
+      "shape": "circle"
+    },
+    {
+      "id": "9210f28",
+      "type": "text",
+      "x": 740,
+      "y": 858,
+      "width": 90,
+      "height": 90,
+      "text": "9210f28",
+      "shape": "circle"
+    },
+    {
+      "id": "bf1a244",
+      "type": "text",
+      "x": 518,
+      "y": 1000,
+      "width": 90,
+      "height": 90,
+      "text": "bf1a244",
+      "shape": "circle"
+    },
+    {
+      "id": "1556cec",
+      "type": "text",
+      "x": 60,
+      "y": 1159,
+      "width": 90,
+      "height": 90,
+      "text": "1556cec",
+      "shape": "circle"
+    },
+    {
+      "id": "07eb118",
+      "type": "text",
+      "x": 113,
+      "y": 1295,
+      "width": 90,
+      "height": 90,
+      "text": "07eb118",
+      "shape": "circle"
+    },
+    {
+      "id": "28d821f",
+      "type": "text",
+      "x": 310,
+      "y": 1297,
+      "width": 90,
+      "height": 90,
+      "text": "28d821f",
+      "shape": "circle"
+    },
+    {
+      "id": "4e227f3",
+      "type": "text",
+      "x": 527,
+      "y": 1159,
+      "width": 90,
+      "height": 90,
+      "text": "4e227f3",
+      "shape": "circle"
+    },
+    {
+      "id": "0fcad79",
+      "type": "text",
+      "x": 128,
+      "y": 1439,
+      "width": 90,
+      "height": 90,
+      "text": "0fcad79",
+      "shape": "circle"
+    },
+    {
+      "id": "a148f0b",
+      "type": "text",
+      "x": 128,
+      "y": 1578,
+      "width": 90,
+      "height": 90,
+      "text": "a148f0b",
+      "shape": "circle"
+    },
+    {
+      "id": "eb04a28",
+      "type": "text",
+      "x": 128,
+      "y": 1713,
+      "width": 90,
+      "height": 90,
+      "text": "eb04a28",
+      "shape": "circle"
+    },
+    {
+      "id": "planning-criteria",
+      "type": "text",
+      "x": 170,
+      "y": 480,
+      "width": 310,
+      "height": 98,
+      "text": "proposal/planning-criteria\nlocal + origin · PR #32 open"
+    },
+    {
+      "id": "software-vocabulary",
+      "type": "text",
+      "x": 1210,
+      "y": 550,
+      "width": 328,
+      "height": 98,
+      "text": "proposal/software-vocabulary\nlocal + origin · PR #38 open"
+    },
+    {
+      "id": "campaign-measurement",
+      "type": "text",
+      "x": 656,
+      "y": 994,
+      "width": 288,
+      "height": 98,
+      "text": "campaign measurement\nmerged · branch deleted"
+    },
+    {
+      "id": "pr-41",
+      "type": "text",
+      "x": 661,
+      "y": 1159,
+      "width": 216,
+      "height": 74,
+      "text": "PR #41 merged"
+    },
+    {
+      "id": "validation-contracts",
+      "type": "text",
+      "x": 443,
+      "y": 1293,
+      "width": 288,
+      "height": 98,
+      "text": "validation contracts\nmerged · branch deleted"
+    },
+    {
+      "id": "origin-master",
+      "type": "text",
+      "x": 261,
+      "y": 1437,
+      "width": 218,
+      "height": 98,
+      "text": "origin/master\nPR #42 merged"
+    },
+    {
+      "id": "master",
+      "type": "text",
+      "x": 68,
+      "y": 1849,
+      "width": 210,
+      "height": 98,
+      "text": "master · HEAD\nlocal checkout"
+    }
+  ],
+  "edges": [
+    {
+      "id": "d84375b-00f1fe9",
+      "fromNode": "d84375b",
+      "fromSide": "bottom",
+      "toNode": "00f1fe9",
+      "toSide": "top"
+    },
+    {
+      "id": "00f1fe9-5530a51",
+      "fromNode": "00f1fe9",
+      "fromSide": "bottom",
+      "toNode": "5530a51",
+      "toSide": "top"
+    },
+    {
+      "id": "baaf008-4f3b684",
+      "fromNode": "baaf008",
+      "fromSide": "bottom",
+      "toNode": "4f3b684",
+      "toSide": "top"
+    },
+    {
+      "id": "4f3b684-1220999",
+      "fromNode": "4f3b684",
+      "fromSide": "bottom",
+      "toNode": "1220999",
+      "toSide": "top"
+    },
+    {
+      "id": "820d01d-bf1a244",
+      "fromNode": "820d01d",
+      "fromSide": "bottom",
+      "toNode": "bf1a244",
+      "toSide": "top"
+    },
+    {
+      "id": "9210f28-bf1a244",
+      "fromNode": "9210f28",
+      "fromSide": "bottom",
+      "toNode": "bf1a244",
+      "toSide": "top"
+    },
+    {
+      "id": "bf1a244-07eb118",
+      "fromNode": "bf1a244",
+      "fromSide": "bottom",
+      "toNode": "07eb118",
+      "toSide": "top"
+    },
+    {
+      "id": "bf1a244-28d821f",
+      "fromNode": "bf1a244",
+      "fromSide": "bottom",
+      "toNode": "28d821f",
+      "toSide": "top"
+    },
+    {
+      "id": "bf1a244-4e227f3",
+      "fromNode": "bf1a244",
+      "fromSide": "bottom",
+      "toNode": "4e227f3",
+      "toSide": "top"
+    },
+    {
+      "id": "1556cec-07eb118",
+      "fromNode": "1556cec",
+      "fromSide": "bottom",
+      "toNode": "07eb118",
+      "toSide": "top"
+    },
+    {
+      "id": "4e227f3-28d821f",
+      "fromNode": "4e227f3",
+      "fromSide": "bottom",
+      "toNode": "28d821f",
+      "toSide": "top"
+    },
+    {
+      "id": "07eb118-0fcad79",
+      "fromNode": "07eb118",
+      "fromSide": "bottom",
+      "toNode": "0fcad79",
+      "toSide": "top"
+    },
+    {
+      "id": "28d821f-0fcad79",
+      "fromNode": "28d821f",
+      "fromSide": "bottom",
+      "toNode": "0fcad79",
+      "toSide": "top"
+    },
+    {
+      "id": "0fcad79-a148f0b",
+      "fromNode": "0fcad79",
+      "fromSide": "bottom",
+      "toNode": "a148f0b",
+      "toSide": "top"
+    },
+    {
+      "id": "a148f0b-eb04a28",
+      "fromNode": "a148f0b",
+      "fromSide": "bottom",
+      "toNode": "eb04a28",
+      "toSide": "top"
+    },
+    {
+      "id": "d84375b-baaf008",
+      "fromNode": "d84375b",
+      "fromSide": "bottom",
+      "toNode": "baaf008",
+      "toSide": "top",
+      "label": "4 commits omitted",
+      "style": "dashed"
+    },
+    {
+      "id": "baaf008-dabfc48",
+      "fromNode": "baaf008",
+      "fromSide": "bottom",
+      "toNode": "dabfc48",
+      "toSide": "top",
+      "label": "25 commits omitted",
+      "style": "dashed"
+    },
+    {
+      "id": "dabfc48-820d01d",
+      "fromNode": "dabfc48",
+      "fromSide": "bottom",
+      "toNode": "820d01d",
+      "toSide": "top",
+      "label": "13 commits omitted",
+      "style": "dashed"
+    },
+    {
+      "id": "dabfc48-9210f28",
+      "fromNode": "dabfc48",
+      "fromSide": "bottom",
+      "toNode": "9210f28",
+      "toSide": "top",
+      "label": "3 commits omitted",
+      "style": "dashed"
+    },
+    {
+      "id": "820d01d-1556cec",
+      "fromNode": "820d01d",
+      "fromSide": "bottom",
+      "toNode": "1556cec",
+      "toSide": "top",
+      "label": "16 commits omitted",
+      "style": "dashed"
+    },
+    {
+      "id": "5530a51-planning-criteria",
+      "fromNode": "5530a51",
+      "fromSide": "bottom",
+      "toNode": "planning-criteria",
+      "toSide": "top",
+      "toEnd": "none",
+      "style": "dashed"
+    },
+    {
+      "id": "1220999-software-vocabulary",
+      "fromNode": "1220999",
+      "fromSide": "bottom",
+      "toNode": "software-vocabulary",
+      "toSide": "top",
+      "toEnd": "none",
+      "style": "dashed"
+    },
+    {
+      "id": "9210f28-campaign-measurement",
+      "fromNode": "9210f28",
+      "fromSide": "bottom",
+      "toNode": "campaign-measurement",
+      "toSide": "top",
+      "toEnd": "none",
+      "style": "dashed"
+    },
+    {
+      "id": "bf1a244-pr-41",
+      "fromNode": "bf1a244",
+      "fromSide": "bottom",
+      "toNode": "pr-41",
+      "toSide": "top",
+      "toEnd": "none",
+      "style": "dashed"
+    },
+    {
+      "id": "4e227f3-validation-contracts",
+      "fromNode": "4e227f3",
+      "fromSide": "bottom",
+      "toNode": "validation-contracts",
+      "toSide": "top",
+      "toEnd": "none",
+      "style": "dashed"
+    },
+    {
+      "id": "28d821f-origin-master",
+      "fromNode": "28d821f",
+      "fromSide": "bottom",
+      "toNode": "origin-master",
+      "toSide": "top",
+      "toEnd": "none",
+      "style": "dashed"
+    },
+    {
+      "id": "eb04a28-master",
+      "fromNode": "eb04a28",
+      "fromSide": "bottom",
+      "toNode": "master",
+      "toSide": "top",
+      "toEnd": "none",
+      "style": "dashed"
+    }
+  ]
+}

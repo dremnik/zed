@@ -1,0 +1,493 @@
+{
+  "nodes": [
+    {
+      "id": "zed-icon",
+      "type": "file",
+      "x": -330,
+      "y": -200,
+      "width": 150,
+      "height": 150,
+      "file": "crates/zed/resources/app-icon@2x.png"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "x": 0,
+      "y": -180,
+      "width": 1180,
+      "height": 110,
+      "text": "Zed architecture\nThis diagram is docs/architecture.canvas: JSON next to the code, rendered and edited in Zed"
+    },
+    {
+      "id": "gpui",
+      "type": "group",
+      "x": -420,
+      "y": 0,
+      "width": 320,
+      "height": 1020,
+      "label": "GPUI · crates/gpui"
+    },
+    {
+      "id": "app",
+      "type": "text",
+      "x": -390,
+      "y": 60,
+      "width": 260,
+      "height": 90,
+      "text": "App & Entities\nstate, effects, executors"
+    },
+    {
+      "id": "elements",
+      "type": "text",
+      "x": -390,
+      "y": 420,
+      "width": 260,
+      "height": 90,
+      "text": "Elements\nflexbox layout via Taffy"
+    },
+    {
+      "id": "platform",
+      "type": "text",
+      "x": -390,
+      "y": 780,
+      "width": 260,
+      "height": 90,
+      "text": "Platform & GPU renderer\nmacOS · Linux · Windows"
+    },
+    {
+      "id": "ws",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "width": 1180,
+      "height": 520,
+      "label": "Workspace · crates/workspace"
+    },
+    {
+      "id": "workspace",
+      "type": "text",
+      "x": 470,
+      "y": 40,
+      "width": 240,
+      "height": 76,
+      "text": "Workspace\npanes, docks, item registry"
+    },
+    {
+      "id": "pane",
+      "type": "text",
+      "x": 210,
+      "y": 180,
+      "width": 260,
+      "height": 76,
+      "text": "Pane\ntabs of anything that impls Item"
+    },
+    {
+      "id": "docks",
+      "type": "text",
+      "x": 700,
+      "y": 180,
+      "width": 320,
+      "height": 76,
+      "text": "Docks\nProject, Git, Agent, Terminal panels"
+    },
+    {
+      "id": "editor",
+      "type": "text",
+      "x": 20,
+      "y": 360,
+      "width": 260,
+      "height": 96,
+      "text": "Editor\ncrates/editor\nDisplayMap, selections"
+    },
+    {
+      "id": "terminal",
+      "type": "text",
+      "x": 310,
+      "y": 360,
+      "width": 260,
+      "height": 96,
+      "text": "TerminalView\ncrates/terminal_view"
+    },
+    {
+      "id": "image",
+      "type": "text",
+      "x": 600,
+      "y": 360,
+      "width": 260,
+      "height": 96,
+      "text": "ImageView\ncrates/image_viewer"
+    },
+    {
+      "id": "canvas",
+      "type": "text",
+      "x": 900,
+      "y": 360,
+      "width": 260,
+      "height": 96,
+      "color": "4",
+      "text": "NEW · CanvasView\ncrates/canvas_view\n.canvas files"
+    },
+    {
+      "id": "text",
+      "type": "group",
+      "x": 0,
+      "y": 600,
+      "width": 1180,
+      "height": 420,
+      "label": "Text & language · crates/multi_buffer, language, text"
+    },
+    {
+      "id": "multibuffer",
+      "type": "text",
+      "x": 20,
+      "y": 650,
+      "width": 260,
+      "height": 86,
+      "text": "MultiBuffer\nexcerpts from one or more Buffers"
+    },
+    {
+      "id": "buffer",
+      "type": "text",
+      "x": 460,
+      "y": 700,
+      "width": 260,
+      "height": 76,
+      "text": "Buffer\ncrates/language"
+    },
+    {
+      "id": "textbuf",
+      "type": "text",
+      "x": 300,
+      "y": 870,
+      "width": 260,
+      "height": 86,
+      "text": "text::Buffer\nCRDT over a Rope, undo history"
+    },
+    {
+      "id": "syntax",
+      "type": "text",
+      "x": 640,
+      "y": 870,
+      "width": 260,
+      "height": 86,
+      "text": "SyntaxMap\nincremental tree-sitter parsing"
+    },
+    {
+      "id": "project",
+      "type": "group",
+      "x": 1270,
+      "y": -10,
+      "width": 1060,
+      "height": 520,
+      "label": "Project · crates/project"
+    },
+    {
+      "id": "projectnode",
+      "type": "text",
+      "x": 1700,
+      "y": 40,
+      "width": 240,
+      "height": 76,
+      "text": "Project"
+    },
+    {
+      "id": "bufferstore",
+      "type": "text",
+      "x": 1300,
+      "y": 200,
+      "width": 240,
+      "height": 86,
+      "text": "BufferStore\nopens, saves, reloads"
+    },
+    {
+      "id": "lspstore",
+      "type": "text",
+      "x": 1560,
+      "y": 200,
+      "width": 240,
+      "height": 86,
+      "text": "LspStore\ndiagnostics, completions"
+    },
+    {
+      "id": "worktreestore",
+      "type": "text",
+      "x": 1820,
+      "y": 200,
+      "width": 240,
+      "height": 86,
+      "text": "WorktreeStore"
+    },
+    {
+      "id": "gitstore",
+      "type": "text",
+      "x": 2080,
+      "y": 200,
+      "width": 240,
+      "height": 86,
+      "text": "GitStore\nstatus, diffs, blame"
+    },
+    {
+      "id": "worktree",
+      "type": "text",
+      "x": 1820,
+      "y": 380,
+      "width": 240,
+      "height": 86,
+      "text": "Worktree\nfile tree, fs events"
+    },
+    {
+      "id": "external",
+      "type": "group",
+      "x": 1280,
+      "y": 600,
+      "width": 1060,
+      "height": 420,
+      "label": "Outside the process"
+    },
+    {
+      "id": "lsp",
+      "type": "text",
+      "x": 1560,
+      "y": 700,
+      "width": 240,
+      "height": 86,
+      "text": "Language servers\ncrates/lsp"
+    },
+    {
+      "id": "fs",
+      "type": "text",
+      "x": 1820,
+      "y": 700,
+      "width": 240,
+      "height": 86,
+      "text": "Fs\nfile I/O, watching"
+    },
+    {
+      "id": "git",
+      "type": "text",
+      "x": 2080,
+      "y": 700,
+      "width": 240,
+      "height": 86,
+      "text": "Git repositories\ncrates/git"
+    },
+    {
+      "id": "extensions",
+      "type": "text",
+      "x": 1560,
+      "y": 900,
+      "width": 240,
+      "height": 86,
+      "text": "Extensions\nWasm via wasmtime"
+    },
+    {
+      "id": "collab",
+      "type": "text",
+      "x": 2420,
+      "y": 200,
+      "width": 240,
+      "height": 86,
+      "text": "collab server\nshared projects, channels"
+    }
+  ],
+  "edges": [
+    {
+      "id": "app-elements",
+      "fromNode": "app",
+      "fromSide": "bottom",
+      "toNode": "elements",
+      "toSide": "top",
+      "label": "render()"
+    },
+    {
+      "id": "elements-platform",
+      "fromNode": "elements",
+      "fromSide": "bottom",
+      "toNode": "platform",
+      "toSide": "top",
+      "label": "layout, paint"
+    },
+    {
+      "id": "workspace-pane",
+      "fromNode": "workspace",
+      "fromSide": "bottom",
+      "toNode": "pane",
+      "toSide": "top"
+    },
+    {
+      "id": "workspace-docks",
+      "fromNode": "workspace",
+      "fromSide": "bottom",
+      "toNode": "docks",
+      "toSide": "top"
+    },
+    {
+      "id": "pane-editor",
+      "fromNode": "pane",
+      "fromSide": "bottom",
+      "toNode": "editor",
+      "toSide": "top"
+    },
+    {
+      "id": "pane-terminal",
+      "fromNode": "pane",
+      "fromSide": "bottom",
+      "toNode": "terminal",
+      "toSide": "top"
+    },
+    {
+      "id": "pane-image",
+      "fromNode": "pane",
+      "fromSide": "bottom",
+      "toNode": "image",
+      "toSide": "top"
+    },
+    {
+      "id": "pane-canvas",
+      "fromNode": "pane",
+      "fromSide": "bottom",
+      "toNode": "canvas",
+      "toSide": "top",
+      "color": "4"
+    },
+    {
+      "id": "editor-multibuffer",
+      "fromNode": "editor",
+      "fromSide": "bottom",
+      "toNode": "multibuffer",
+      "toSide": "top"
+    },
+    {
+      "id": "multibuffer-buffer",
+      "fromNode": "multibuffer",
+      "fromSide": "right",
+      "toNode": "buffer",
+      "toSide": "left"
+    },
+    {
+      "id": "canvas-buffer",
+      "fromNode": "canvas",
+      "fromSide": "bottom",
+      "toNode": "buffer",
+      "toSide": "top",
+      "color": "4",
+      "label": "parses + writes JSON"
+    },
+    {
+      "id": "buffer-textbuf",
+      "fromNode": "buffer",
+      "fromSide": "bottom",
+      "toNode": "textbuf",
+      "toSide": "top"
+    },
+    {
+      "id": "buffer-syntax",
+      "fromNode": "buffer",
+      "fromSide": "bottom",
+      "toNode": "syntax",
+      "toSide": "top"
+    },
+    {
+      "id": "workspace-projectnode",
+      "fromNode": "workspace",
+      "fromSide": "right",
+      "toNode": "projectnode",
+      "toSide": "left",
+      "label": "owns"
+    },
+    {
+      "id": "projectnode-bufferstore",
+      "fromNode": "projectnode",
+      "fromSide": "bottom",
+      "toNode": "bufferstore",
+      "toSide": "top"
+    },
+    {
+      "id": "projectnode-lspstore",
+      "fromNode": "projectnode",
+      "fromSide": "bottom",
+      "toNode": "lspstore",
+      "toSide": "top"
+    },
+    {
+      "id": "projectnode-worktreestore",
+      "fromNode": "projectnode",
+      "fromSide": "bottom",
+      "toNode": "worktreestore",
+      "toSide": "top"
+    },
+    {
+      "id": "projectnode-gitstore",
+      "fromNode": "projectnode",
+      "fromSide": "bottom",
+      "toNode": "gitstore",
+      "toSide": "top"
+    },
+    {
+      "id": "worktreestore-worktree",
+      "fromNode": "worktreestore",
+      "fromSide": "bottom",
+      "toNode": "worktree",
+      "toSide": "top"
+    },
+    {
+      "id": "bufferstore-buffer",
+      "fromNode": "bufferstore",
+      "fromSide": "bottom",
+      "toNode": "buffer",
+      "toSide": "right",
+      "label": "opens + saves"
+    },
+    {
+      "id": "lspstore-lsp",
+      "fromNode": "lspstore",
+      "fromSide": "bottom",
+      "toNode": "lsp",
+      "toSide": "top",
+      "label": "JSON-RPC",
+      "style": "dashed"
+    },
+    {
+      "id": "worktree-fs",
+      "fromNode": "worktree",
+      "fromSide": "bottom",
+      "toNode": "fs",
+      "toSide": "top",
+      "style": "dashed"
+    },
+    {
+      "id": "gitstore-git",
+      "fromNode": "gitstore",
+      "fromSide": "bottom",
+      "toNode": "git",
+      "toSide": "top",
+      "style": "dashed"
+    },
+    {
+      "id": "extensions-lsp",
+      "fromNode": "extensions",
+      "fromSide": "top",
+      "toNode": "lsp",
+      "toSide": "bottom",
+      "label": "provide adapters",
+      "style": "dashed"
+    },
+    {
+      "id": "projectnode-collab",
+      "fromNode": "projectnode",
+      "fromSide": "right",
+      "toNode": "collab",
+      "toSide": "top",
+      "label": "client · protobuf RPC",
+      "style": "dashed"
+    },
+    {
+      "id": "ws-gpui",
+      "fromNode": "ws",
+      "fromSide": "left",
+      "toNode": "gpui",
+      "toSide": "right",
+      "label": "renders with"
+    }
+  ]
+}

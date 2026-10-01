@@ -733,6 +733,7 @@ fn main() {
         editor::init(cx);
         image_viewer::init(cx);
         repl::notebook::init(cx);
+        canvas_view::init(cx);
         diagnostics::init(cx);
 
         audio::init(cx);
